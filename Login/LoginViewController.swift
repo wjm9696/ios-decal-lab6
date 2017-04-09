@@ -89,7 +89,7 @@ class LoginViewController: UIViewController {
         loginView.addSubview(loginButton)
         emailTextField.frame = CGRect(x: 10, y: -30, width: 0.8*loginView.frame.width, height: Constants.labelHeight)
         passwordTextField.frame = CGRect(x: 10, y: 20, width: 0.8*loginView.frame.width, height: Constants.labelHeight)
-        loginButton.frame = CGRect(x: (loginView.frame.width-100)/2, y: 90c, width: 100, height: 40)
+        loginButton.frame = CGRect(x: (loginView.frame.width-100)/2, y: 90, width: 100, height: 40)
         
         loginButton.addTarget(self, action: #selector(self.handleRegister(sender:)), for: .touchDown)
 
